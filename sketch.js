@@ -2,7 +2,7 @@ let snowflake = [];
 
 function setup()
 {
-    createCanvas(500, 600);
+    createCanvas(500, 600).parent("canvas");
 
     let h = Math.sqrt(3)/2*width;
 
